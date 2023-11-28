@@ -1,2 +1,2 @@
 #!/bin/bash
-²²
+python3 -c "$PYCODE"
