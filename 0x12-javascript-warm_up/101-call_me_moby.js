@@ -1,6 +1,8 @@
 #!/usr/bin/node
-exports.callMeMoby = (x, theFunction) => {
-  for (let i = 0; i < x; i++) {
+// function that executes x times a function.
+exports.callMeMoby = function (x, theFunction) {
+  while (x > 0) {
     theFunction();
+    x--;
   }
 };
